@@ -1,63 +1,59 @@
-﻿30-5-2023
-
-Analista de Identidad: Esteban Quengúan 
-
-FAST-MARKET
-
-Informe de Análisis de Verificaciones de Antecedentes de Gigsters
-![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.001.png)![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.002.png)![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.003.png)
-
-
+﻿
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.003.png)
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.002.png)
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.001.png)
 # Contenido
-[Resumen	2](#_toc136340643)
+[**Resumen**	2](#_toc136362854)
 
-[Introducción	3](#_toc136340644)
+[**Introducción**	3](#_toc136362855)
 
-[Metodología de análisis	4](#_toc136340645)
+[**Metodología de análisis**	4](#_toc136362856)
 
-[Análisis e Informes	5](#_toc136340646)
+[**Análisis e Informes**	5](#_toc136362857)
 
-[Distribución de Puntuación	5](#_toc136340647)
+[**Distribución de Puntuación**	5](#_toc136362858)
 
-[Número de Checks con Posible Fraude	5](#_toc136340648)
+[**Número de Checks con Posible Fraude**	5](#_toc136362859)
 
-[Tasa de Aceptación / Rechazo	6](#_toc136340649)
+[**Tasa de Aceptación / Rechazo**	6](#_toc136362860)
 
-[Razones más Comunes de Rechazo	7](#_toc136340650)
+[**Razones más Comunes de Rechazo**	7](#_toc136362861)
 
-[Correlación entre Score y Score criminal background	7](#_toc136340651)
+[**Correlación entre Score y Score criminal background**	7](#_toc136362862)
 
-[Gráfico de distribución de puntuación por conjunto de datos	7](#_toc136340652)
+[**Gráfico de distribución de puntuación por conjunto de datos**	7](#_toc136362863)
 
-[Tabla de frecuencia de keywords_criminal	8](#_toc136340653)
+[**Tabla de frecuencia de keywords_criminal**	8](#_toc136362864)
 
-[Recomendaciones	9](#_toc136340654)
+[**Recomendaciones**	10](#_toc136362865)
 
-[Conclusiones	10](#_toc136340655)
+[**Conclusiones**	10](#_toc136362866)
 
 
 # Tablas
 
-[Tabla 1:Registros con scores en cero	7](#_toc136340069)
+[Tabla 1:Registros con scores en cero	6](#_toc136362867)
 
-[Tabla 2: Frecuencia de Medidas Cautelares	9](#_toc136340070)
+[Tabla 2: Frecuencia de Medidas Cautelares	8](#_toc136362868)
 # ` `Ilustraciones
-[Ilustración 1: distribución de puntuación	6](#_toc136339942)
+[Ilustración 1: distribución de puntuación	5](#_toc136362878)
 
-[Ilustración 2: Gisters con score de cero	7](#_toc136339943)
+[Ilustración 2: Gisters con score de cero	6](#_toc136362879)
 
-[Ilustración 3: Histograma de medidas cautelares con Mora	8](#_toc136339944)
+[Ilustración 3: Histograma de medidas cautelares con Mora	7](D:\Esteban\Documentos\personales\Proyectos\Propios\PruebasTenicas\Truora_AnalistaIdentidad\.git\Informe_Analisis.docx#_Toc136362880)
 
-[Ilustración 4: Mapa de correlación	8](#_toc136339945)
+[Ilustración 4: Mapa de correlación	7](D:\Esteban\Documentos\personales\Proyectos\Propios\PruebasTenicas\Truora_AnalistaIdentidad\.git\Informe_Analisis.docx#_Toc136362881)
 
-[Ilustración 5: Distribución de puntuación por conjunto de datos	9](#_toc136339946)
+[Ilustración 5: Distribución de puntuación por conjunto de datos	8](D:\Esteban\Documentos\personales\Proyectos\Propios\PruebasTenicas\Truora_AnalistaIdentidad\.git\Informe_Analisis.docx#_Toc136362882)
 
-
-
-
+[Ilustración 6: Frecuencia de keywords_criminal	9](#_toc136362883)
 
 
-# <a name="_toc136340643"></a>Resumen
+
+
+
+
+# <a name="_toc136362854"></a>**Resumen**
 
 - El análisis de los datos de los Gigsters revela que la mayoría de ellos tienen puntuaciones altas, indicando la falta de antecedentes penales, multas de tránsito o problemas financieros.
 - Se identificaron Gigsters con puntuaciones bajas (0.0, 0.05), sugiriendo la necesidad de verificaciones adicionales para detectar posibles problemas de identidad o antecedentes penales.
@@ -71,7 +67,8 @@ Informe de Análisis de Verificaciones de Antecedentes de Gigsters
 - Se recomienda a Fast-Market seguir utilizando los servicios de verificación de antecedentes de [Xempresa], pero se deben considerar los puntos mencionados anteriormente para tomar decisiones informadas y garantizar la seguridad y confiabilidad de los Gigsters contratados.
 
 
-# <a name="_toc136340644"></a>Introducción
+# <a name="_toc136362855"></a>**Introducción**
+
 Este informe tiene como objetivo proporcionarle una visión detallada de los resultados obtenidos, así como las recomendaciones clave para mejorar el proceso de selección de Gigsters en Fast-Market.
 
 En un entorno laboral en constante evolución, es fundamental contar con una estrategia sólida para garantizar la seguridad y la confianza en la contratación de personal. La verificación de antecedentes es una práctica efectiva para mitigar riesgos y tomar decisiones informadas. En este informe, se analizaron los conjuntos de datos proporcionados por [Xempresa], que incluyen antecedentes penales, multas de tránsito y antecedentes financieros de los Gigsters.
@@ -81,8 +78,7 @@ A lo largo de este informe, se explorarán diversos aspectos, como la distribuci
 Agradecemos su confianza en nuestros servicios y esperamos que este informe le proporcione información valiosa para tomar decisiones informadas y mejorar la eficiencia y calidad de su proceso de selección de Gigsters.
 
 
-
-<a name="_toc136340645"></a>Metodología de análisis
+# <a name="_toc136362856"></a>**Metodología de análisis**
 
 1. Importar la biblioteca pandas para el análisis de datos:
 1. Leer el archivo de Excel que contiene los datos:
@@ -104,25 +100,27 @@ Agradecemos su confianza en nuestros servicios y esperamos que este informe le p
 - Se realiza el conteo de registros con "keywords\_criminal" no vacíos y se genera un histograma.
 
 
-# <a name="_toc136340646"></a>Análisis e Informes
+# <a name="_toc136362857"></a>**Análisis e Informes**
 
-## <a name="_toc136340647"></a>Distribución de Puntuación
+
+
+## <a name="_toc136362858"></a>**Distribución de Puntuación**
 La distribución de puntuación proporciona información importante sobre el nivel de confiabilidad de los Gigsters. A continuación, se muestra un histograma que muestra la frecuencia de diferentes puntuaciones obtenidas por los Gigsters:
 
-![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.004.png)
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.004.png)
 
-<a name="_toc136339942"></a>*Ilustración 1: distribución de puntuación*
+<a name="_toc136362878"></a>*Ilustración 1: distribución de puntuación*
 
 Del análisis de la distribución de puntuación, se observa que la mayoría de los Gigsters obtienen puntuaciones altas, con un pico significativo alrededor de 0.75. Sin embargo, también se identifican algunos casos con puntuaciones bajas, lo que indica la presencia de posibles riesgos.
 
-## <a name="_toc136340648"></a>Número de Checks con Posible Fraude
+## <a name="_toc136362859"></a>**Número de Checks con Posible Fraude**
 Al analizar los datos, se identificaron Gigsters con posibles indicios de fraude. Estos casos se caracterizan por la presencia de campos vacíos o información inconsistente. En particular, se encontraron 7 checks con posible fraude, como se muestra a continuación:
 
-![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.005.png)
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.005.png)
 
-<a name="_toc136339943"></a>*Ilustración 2: Gisters con score de cero*
+<a name="_toc136362879"></a>*Ilustración 2: Gisters con score de cero*
 
-<a name="_toc136340069"></a>*Tabla 1:Registros con scores en cero*
+<a name="_toc136362867"></a>*Tabla 1:Registros con scores en cero*
 
 |**score**|**score\_ criminal\_background**|**keywords\_ criminal**|**score\_ traffic\_fines**|**fines\_ count**|<p>**score\_**</p><p>**financial\_**</p><p>**background**</p>|<p>**financial\_**</p><p>**status**</p>|
 | :- | :- | :- | :- | :- | :- | :- |
@@ -130,7 +128,7 @@ Al analizar los datos, se identificaron Gigsters con posibles indicios de fraude
 
 Es esencial investigar y evaluar cuidadosamente estos casos para garantizar la integridad y confiabilidad de los Gigsters contratados.
 
-## <a name="_toc136340649"></a>Tasa de Aceptación / Rechazo
+## <a name="_toc136362860"></a>**Tasa de Aceptación / Rechazo**
 La tasa de aceptación y rechazo es un indicador clave para evaluar la efectividad del proceso de selección. En el análisis de los datos, se obtuvieron los siguientes resultados:
 
 - Tasa de aceptación: 64.23%
@@ -138,18 +136,19 @@ La tasa de aceptación y rechazo es un indicador clave para evaluar la efectivid
 
 Esto implica que la mayoría de los Gigsters verificados cumplieron con los criterios establecidos, pero aún existe una proporción significativa que no cumplió con los requisitos o presentó posibles riesgos.
 
-<a name="_toc136340650"></a><a name="_toc136339944"></a>*Ilustración 3: Histograma de medidas cautelares con Mora*
-## ![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.006.png)![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.007.png)Razones más Comunes de Rechazo
-Al revisar los casos de rechazo, se identificaron ciertas razones recurrentes. Se encontró que el 65% de los Gigsters rechazados presentaban mora en sus antecedentes financieros. 
+<a name="_toc136362861"></a><a name="_toc136362880"></a>*Ilustración 3: Histograma de medidas cautelares con Mora*
+## ![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.006.png)**Razones más Comunes de Rechazo**
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.007.png)Al revisar los casos de rechazo, se identificaron ciertas razones recurrentes. Se encontró que el 65% de los Gigsters rechazados presentaban mora en sus antecedentes financieros. 
 
 Además, se identificaron 54 Gigsters aceptados que tenían la palabra clave "Medidas cautelares, Abuso de confianza, Sanción y hostigamiento" en sus registros.
 
 
 
 
-## <a name="_toc136340651"></a>Correlación entre Score y Score criminal background
-<a name="_toc136339945"></a>*Ilustración 4: Mapa de correlación*
-![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.008.png)![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.009.png)
+
+## <a name="_toc136362862"></a>**Correlación entre Score y Score criminal background**
+<a name="_toc136362881"></a>*Ilustración 4: Mapa de correlación*
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.008.png)![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.009.png)
 
 Se realizó un mapa de correlación de calor para evaluar la relación entre la puntuación general (score) y el antecedente criminal (score\_criminal\_background). Se encontró una correlación positiva significativa de 0.88 entre estas dos variables, lo que indica que el antecedente criminal juega un papel importante en la determinación de la puntuación general.
 
@@ -158,10 +157,10 @@ Se realizó un mapa de correlación de calor para evaluar la relación entre la 
 
 
 
-## <a name="_toc136340652"></a>Gráfico de distribución de puntuación por conjunto de datos 
+## <a name="_toc136362863"></a>**Gráfico de distribución de puntuación por conjunto de datos** 
 
-<a name="_toc136339946"></a>*Ilustración 5: Distribución de puntuación por conjunto de datos*
-![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.010.png)![](Aspose.Words.73c20c80-a168-493f-89ea-72a667c8248c.011.png)Este gráfico muestra la distribución de puntuación para cada uno de los conjuntos de datos (Criminal Background, Traffic Fines, Financial Background). 
+<a name="_toc136362882"></a>*Ilustración 5: Distribución de puntuación por conjunto de datos*
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.010.png)![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.011.png)Este gráfico muestra la distribución de puntuación para cada uno de los conjuntos de datos (Criminal Background, Traffic Fines, Financial Background). 
 
 
 
@@ -177,10 +176,10 @@ Se realizó un mapa de correlación de calor para evaluar la relación entre la 
 
 1. Se identificaron casos excepcionales donde los Gigsters obtuvieron puntuaciones bajas en los conjuntos de datos. Estos casos se representan mediante tres puntos ubicados en 0.4, 0.2 y 0.0 en el gráfico. Estos puntos indican la presencia de Gigsters con antecedentes criminales, multas de tránsito o situaciones financieras problemáticas que deben ser evaluados cuidadosamente en el proceso de selección.
 
-## <a name="_toc136340653"></a>Tabla de frecuencia de keywords\_criminal
+## <a name="_toc136362864"></a>**Tabla de frecuencia de keywords\_criminal**
 Esta tabla muestra la frecuencia de las palabras clave más comunes relacionadas con crímenes en los registros de los Gigsters. Ayuda a identificar los delitos más recurrentes y a enfocar los esfuerzos de verificación en áreas específicas.
 
-<a name="_toc136340070"></a>*Tabla 2: Frecuencia de Medidas Cautelares*
+<a name="_toc136362868"></a>*Tabla 2: Frecuencia de Medidas Cautelares*
 
 |**keywords\_criminal**|**count**|**keywords\_criminal**|**count**|
 | - | - | - | - |
@@ -207,9 +206,11 @@ Esta tabla muestra la frecuencia de las palabras clave más comunes relacionadas
 |EXPLOSIVOS|4|GOLPES|1|
 |GENOCIDIO|4|PROVOCACION|1|
 
+![](IMG/Aspose.Words.a0abaeff-fafc-44e2-b9da-791bb6f2282a.012.png)
 
+<a name="_toc136362883"></a>*Ilustración 6: Frecuencia de keywords\_criminal*
 
-# <a name="_toc136340654"></a>Recomendaciones
+# <a name="_toc136362865"></a>**Recomendaciones**
 Basado en los resultados del análisis y los hallazgos identificados, se hacen las siguientes recomendaciones para mejorar el proceso de selección de Gigsters:
 
 1. Revisar y actualizar los criterios de aceptación/rechazo: Considerar ajustar los criterios utilizados para evaluar a los Gigsters, teniendo en cuenta los resultados del análisis y las razones comunes de rechazo. Esto puede incluir la modificación de los umbrales de puntuación y la incorporación de nuevos criterios relevantes.
@@ -222,7 +223,7 @@ Basado en los resultados del análisis y los hallazgos identificados, se hacen l
 
 1. Monitorear continuamente el desempeño del proceso de selección: Establecer un sistema de seguimiento y monitoreo para evaluar regularmente el desempeño del proceso de selección de Gigsters, identificar áreas de mejora y realizar ajustes necesarios para optimizar los resultados.
 
-# <a name="_toc136340655"></a>Conclusiones
+# <a name="_toc136362866"></a>**Conclusiones**
 En conclusión, el análisis de los datos de verificación de Gigsters utilizando Xempresa proporciona información valiosa para mejorar el proceso de selección y mitigar posibles riesgos asociados con la contratación de personal. A partir de los resultados del análisis, se pueden extraer las siguientes conclusiones clave:
 
 1. La mayoría de los Gigsters verificados obtienen puntuaciones altas, lo que indica un nivel general de confiabilidad. Sin embargo, también se identificaron casos con puntuaciones bajas, lo que resalta la importancia de evaluar cuidadosamente a cada candidato.
